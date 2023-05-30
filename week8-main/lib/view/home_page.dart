@@ -38,6 +38,11 @@ class HomePage extends StatelessWidget {
               destination: MultipleCorgiImagesPage(),
             ),
             // TODO 강아지 API 사용해서 아무 기능이나 추가해 보기
+            SizedBox(height: 10),
+            CustomNavigationButton(
+              title: "랜덤으로 리트리버 사진들 불러오기",
+              destination: MultipleCorgiImagesPage(),
+            ),
           ],
         ),
       ),
